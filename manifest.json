@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Faceit Potential Elo",
+  "version": "0.1.0",
+  "description": "Shows estimated potential elo on FACEIT pages",
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "host_permissions": [
+    "https://open.faceit.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.faceit.com/*"
+      ],
+      "js": [
+        "dist/content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

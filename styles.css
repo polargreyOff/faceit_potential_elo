@@ -1,0 +1,22 @@
+.potential-elo-badge {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.potential-elo-badge.is-positive {
+  color: #22c55e;
+}
+
+.potential-elo-badge.is-negative {
+  color: #ef4444;
+}
+
+.potential-elo-badge.is-neutral,
+.potential-elo-badge.is-loading {
+  color: #f5b942;
+}
+
+.potential-elo-badge.is-error {
+  color: #f97316;
+}

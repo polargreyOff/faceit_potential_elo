@@ -1,0 +1,14 @@
+{
+  "name": "faceit-potential-elo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "watch": "tsc --watch --preserveWatchOutput"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.315",
+    "typescript": "^5.8.2"
+  }
+}
